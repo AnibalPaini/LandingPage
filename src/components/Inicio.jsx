@@ -4,7 +4,7 @@ import Telefono from "./ui/Telefono";
 
 const inicio = () => {
   return (
-    <main className="w-full bg-gray-700 min-h-[calc(100vh-5.5rem)] flex items-center">
+    <main className="w-full bg-gray-700 min-h-screen flex items-center">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-7xl mx-auto">
         <section>
           <h1 className="text-gray-50 text-4xl md:text-6xl font-bold leading-tight">

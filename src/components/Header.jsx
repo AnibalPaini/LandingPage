@@ -3,7 +3,7 @@ import Scale from "./ui/Scale.jsx";
 
 const Header = () => {
   return (
-    <header className="bg-gray-800 w-full py-6">
+    <header className="bg-gray-800 w-full py-6 fixed">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4">
         {/* Logo y título */}
         <div className="flex items-center gap-x-4">
