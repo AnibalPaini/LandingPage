@@ -5,24 +5,18 @@ const Header = () => {
   return (
     <header className="bg-gray-800 w-full py-6 fixed">
       <div className="max-w-7xl mx-auto flex items-center justify-between px-4">
-        {/* Logo y título */}
         <div className="flex items-center gap-x-4">
           <Scale/>
           <h1 className="text-gray-100 text-2xl font-bold">Estudio Jurídico</h1>
         </div>
-
-        {/* Navegación */}
         <nav className="hidden md:flex gap-x-6">
-          <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors">
+          <a href="#inicio" className="text-gray-300 hover:text-amber-400 transition-colors">
             Inicio
           </a>
-          <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors">
+          <a href="#servicios" className="text-gray-300 hover:text-amber-400 transition-colors">
             Servicio
           </a>
-          <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors">
-            Nosotros
-          </a>
-          <a href="#" className="text-gray-300 hover:text-amber-400 transition-colors">
+          <a href="#contacto" className="text-gray-300 hover:text-amber-400 transition-colors">
             Contacto
           </a>
         </nav>
